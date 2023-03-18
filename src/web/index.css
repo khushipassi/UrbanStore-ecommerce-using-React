@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  font-size: 2rem !important;
+  color: #565387 !important;
+}
+
+.navbar a {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+  color: #ffc107 !important;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.navbar a:hover {
+  color: #ffc107 !important;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+    color: #ffc107 !important;
+    text-shadow: 1px 1px 2px #000000;
+  }
+}
+
+/*Main Landing Section*/
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 50px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  /* color: #3498db; */
+  color: #ffc107;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  /* color: #3498db; */
+  color: #ffc107;
+  border: 2px solid #ffc107;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+  /* background: #3498db; */
+  background-color: #ffc107;
+  color: #000000;
+}
+
+#header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+/*.....................ourteam..............*/
+.ourteam {
+  height: 700px;
+  padding: 100px 0px 60px;
+  width: 100%;
+}
+
+.ourteam h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.ourteam img {
+  border: solid #000000 5px;
+}
+
+.teamsetting {
+  margin-top: 70px !important;
+}
+/*........ourservices.............*/
+
+.ourservices {
+  padding: 60px 60px 60px 60px;
+  height: 690px;
+}
+
+.ourservices h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.imgsetting i {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.rowsetting {
+  margin: 80px 0px !important;
+}
+
+.fa-shopping-cart {
+  margin-top: 20px;
+  padding: 23px;
+}
+
+.fa-desktop {
+  margin-top: 20px;
+  padding: 27px;
+}
+
+.fa-lock {
+  margin-top: 20px;
+  padding: 26px;
+}
+
+.rowsetting h2 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.rowsetting p {
+  padding: 10px;
+  color: #6c757d !important;
+}
+
+/*.......makeform.........*/
+
+.makeform {
+  width: 100%;
+  height: 715px;
+  padding: 100px 0px 60px;
+}
+
+.makeform h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.details {
+  margin-top: 50px !important;
+}
+
+/*............footer..........*/
+
+.footer {
+  height: 50px;
+  padding: 70px 0px 60px;
+}
+
+.footer h6 {
+  line-height: 50px;
+}
+
+.footer h1 {
+  font-weight: bold;
+}
+
+.jumbotron {
+  height: 130px;
+  padding-top: 5px !important;
+}
+
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-linkedin:hover {
+  color: #ff0000 !important;
+}
+
+/*.....................portfolio..............*/
+
+.port {
+  height: 800px;
+  width: 100%;
+  padding: 100px 0px 50px;
+}
+.portfolio {
+  height: 1200px;
+  width: 100%;
+  padding: 100px 0px 50px;
+}
+.portfolio h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.port h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.card {
+  margin-top: 40px;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  #header {
+    height: 90vh;
+    text-align: center;
+  }
+
+  #header .header-img {
+    text-align: center;
+  }
+
+  #header .header-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 991px) {
+  #header {
+    margin-top: 20px;
+  }
+
+  #header h1 {
+    font-size: 28px;
+  }
+
+  #header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  #header .header-img img {
+    width: 70%;
+  }
+}
+
+/*............footer..........*/
+
+.footer {
+  height: 50px;
+  padding: 70px 0px 60px;
+}
+
+.footer h6 {
+  line-height: 50px;
+}
+
+.footer h1 {
+  font-weight: bold;
+}
+
+.jumbotron {
+  height: 130px;
+  padding-top: 5px !important;
+}
+
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-linkedin:hover {
+  color: #ff0000 !important;
+}
+
+/*......responsive........*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .ourservices {
+    height: 800px;
+  }
+  .portfolio {
+    height: 950px;
+  }
+  .port {
+    height: 700px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .ourservices {
+    height: 1000px;
+  }
+  .portfolio {
+    height: 3600px;
+  }
+  .port {
+    height: 2300px;
+  }
+  .ourteam {
+    height: 1400px;
+  }
+  .makeform {
+    height: 800px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+  .ourservices {
+    height: 1350px;
+  }
+  .port {
+    height: 2000px;
+  }
+  .portfolio {
+    height: 3150px;
+    padding: 60px 0px 50px;
+  }
+  .ourteam {
+    height: 1450px;
+  }
+  .makeform {
+    height: 800px;
+    padding: 80px 0px 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ourservices {
+    height: 1500px;
+  }
+  .portfolio {
+    height: 2900px;
+  }
+  .port {
+    height: 1800px;
+  }
+  .ourteam {
+    height: 1500px;
+  }
+  .makeform {
+    height: 1000px;
+    padding: 135px 0px 60px;
+  }
+  .footer {
+    height: 300px;
+  }
+}
